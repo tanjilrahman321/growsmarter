@@ -1,0 +1,181 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+    /* All Product start  */
+    .all-products-tr {
+        padding: 50px 0;
+    }
+    .contact-tr {
+        padding: 50px 0;
+        background-color: #f5f5f5;
+    }
+    .form-wrapper-cc {
+        padding: 20px 20px;
+        border-radius: 10px;
+        background-color: #fff;
+    }
+    /* All Product end */
+    /* Product details start  */
+    .single-product-tr {
+        padding: 60px 0;
+        background-color: #fafafa;
+    }
+    .product-content {
+        padding: 26px 0;
+    }
+    .purchase-info .read-more-btn-tr {
+        padding: 7px 15px 9px;
+    }
+    /* Product details end  */
+    /* Navbar start  */
+    #gtco-main-nav::after {
+        display: none;
+    }
+    #gtco-main-nav::before {
+        display: none;
+    }
+    .navbar-toggler {
+        padding: .25rem .75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: #85b93a;
+        border: 1px solid #ffffff;
+        border-radius: .25rem;
+    }
+    .navbar-nav {
+        margin-left: 0 !important;
+    }
+    /* Navbar end  */
+    /* banner start  */
+    .gtco-banner-area h1 {
+        margin-top: 20px;
+        font-size: 26px;
+    }
+    .bud-banner {
+        margin-top: 40px !important;
+        margin-right: -100px !important;
+    }
+    .cuba-banner {
+        margin-left: -45px !important;
+    }
+    .gtco-banner-area .col-md-6 .card .card-img-top {
+        margin-top: -150px;
+    }
+    /* banner end  */
+    /* Feature start  */
+    .gtco-feature h2 {
+        font-size: 30px;
+    }
+    .gtco-feature h3 {
+        font-size: 20px;
+    }
+    /* Feature end   */
+    .youtube-cc {
+        height: auto;
+    }
+    .gtco-feature .card .cc-us-team-img {
+        margin-left: 0px !important;
+    }
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* All Product start  */
+    .all-products-tr {
+        padding: 60px 0;
+    }
+    .contact-tr {
+        padding: 60px 0;
+        background-color: #f5f5f5;
+    }
+    /* All Product end */
+    /* Navbar start  */
+    #gtco-main-nav::after {
+        display: none;
+    }
+    #gtco-main-nav::before {
+        display: none;
+    }
+    .navbar-toggler {
+        padding: .25rem .75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: #85b93a;
+        border: 1px solid #ffffff;
+        border-radius: .25rem;
+    }
+    .navbar-nav {
+        margin-left: 0 !important;
+    }
+    /* Navbar End  */
+    .youtube-cc {
+        height: 307px;
+    }
+}
+
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* All Product start  */
+    .all-products-tr {
+        padding: 60px 0;
+    }
+    .contact-tr {
+        padding: 60px 0;
+        background-color: #f5f5f5;
+    }
+    /* All Product end */
+    .cuba-banner {
+        margin-left: -60px !important;
+    }
+    .youtube-cc {
+        height: 415px;
+    }
+    .gtco-features .col-lg-8 {
+        padding: 40px;
+    }
+    #gtco-main-nav::after {
+        width: 400px;
+        height: 400px;
+    }
+    #gtco-main-nav::before {
+        width: 400px;
+        height: 400px;
+    }
+    .lexikon-bud-banner-tr {
+        margin-right: 0px !important;
+    }
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .gtco-features .col-lg-8 {
+        padding: 0px;
+    }
+    .lexikon-bud-banner-tr {
+        margin-right: 0px !important;
+    }
+}
+
+
+/*X large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .lexikon-bud-banner-tr {
+        margin-right: 0px !important;
+    }
+}
+
+
+/*XX Large devices (large desktops, 1400px and up)*/
+
+@media (min-width: 1400px) {
+    .lexikon-bud-banner-tr {
+        margin-right: 0px !important;
+    }
+}
